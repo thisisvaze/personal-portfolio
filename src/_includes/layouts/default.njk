@@ -9,10 +9,34 @@
 
     {% include 'snippets/navbar.njk' %}
 
-    <main class="container">
+    <main class="container text-center">
       <div class="row d-flex justify-content-center">
-        <div class="col-12 col-lg-10 col-xl-8">
-          {% include 'snippets/maincontent.njk' %}
+        {% myProfilePhoto "./src/img/profile.png",
+        "profile_pic" %}
+        <div class="col-10 col-lg-8 col-xl-6"
+        ><br>
+          <p class="mb-0 fs-3">
+            About Me
+          </p>
+          <div>
+            <p class="lead">
+              {{about_content}}</p>
+          </div>
+          <p class=" fs-3">
+            Work
+          </p>
+          <a class="link-fancy mb-3" href= {{link1_url}}>
+            <p class="fs-6 mb-0">{{ link1 }}</p>
+          </a>
+          <br>
+          <a class="link-fancy mb-3" href= {{link2_url}}>
+            <p class="fs-6 mb-0">{{ link2 }}</p>
+          </a>
+          <p class=" fs-3">
+            Email
+          </p>
+
+          <p class="fs-6 mb-3">{{ email }}</p>
         </div>
       </div>
     </main>
