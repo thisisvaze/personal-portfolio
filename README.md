@@ -1,4 +1,5 @@
-# Clone and Run
+# Clone this repo
+## To Install
 ```
 npm install
 ```
