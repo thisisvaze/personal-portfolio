@@ -1,7 +1,7 @@
 {
-  "name": "11straps",
+  "name": "11ty-portfolio-template",
   "version": "0.3.0",
-  "description": "simple 11ty and Bootstrap5 boilerplate",
+  "description": "11ty Portfolio template",
   "license": "MIT",
   "private": "true",
   "publishConfig": {
@@ -24,8 +24,8 @@
   },
   "dependencies": {
     "@11ty/eleventy": "2.0.0-canary.14",
+    "@11ty/eleventy-img": "2.0.1",
     "bootstrap": "5.2.0",
-    "bootstrap-icons": "1.8.3",
     "browser-sync": "^2.27.10",
     "clean-css": "^5.3.0",
     "gulp": "^4.0.2",
@@ -37,14 +37,14 @@
     "gulp-plumber": "^1.2.1",
     "gulp-rename": "^2.0.0",
     "npm-watch": "^0.11.0",
-    "watch": "^1.0.2",
-    "@11ty/eleventy-img": "2.0.1"
+    "watch": "^1.0.2"
   },
   "author": "Aaditya Vaze",
   "devDependencies": {
     "@11ty/eleventy-img": "^2.0.1",
     "@11ty/eleventy-navigation": "^0.3.3",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
+    "bootstrap-icons": "^1.9.1",
     "gulp-html-replace": "^1.6.2",
     "gulp-purgecss": "^4.1.3",
     "node-sass": "^7.0.1",
@@ -54,11 +54,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/holger1411/11straps"
+    "url": "https://github.com/aadityavaze/11ty-portfolio-template"
   },
-  "keywords": [],
-  "bugs": {
-    "url": ""
-  },
+  "keywords": [
+    "eleventy",
+    "eleventy-template",
+    "portfolio"
+  ],
   "homepage": "https://thisisvaze.com"
 }

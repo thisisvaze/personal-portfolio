@@ -1,44 +1,47 @@
 ---
-layout: layouts/work_sdkx.njk
+layout: layouts/works/work_things.njk
 tags: post
 related:
-  - Android
-  - UI/UX
-cover: ./src/img/cover1.png
+  - Unity
+  - Hololens 2
+  - Oculus Quest
+cover: ./src/img/things_cover.png
 title: >
-  Dynamic Ad Design Systems Optimization
+  Contextual learning with Mixed Reality
 date: Created
 product: >
-  GreedyGame SDK X
-subtitle: Optimized the user onboarding time for SDK X by a staggering 400%
+  Thesis (Work in Progress)
+subtitle: M.Des. Thesis @ OCAD University
 summary_title1: Aim
 summary1: Reduce Integration Cycle time and improve user onboarding experience
 
-summary_title2: My Role
-summary2: Plan features for release cycles, UX Research, Prototyping and High-fidelity mocks, UI Development
-
+summary_title2: Tools
+summary2: Unity, Hololens MRTK3, Node, PyTorch
 summary_title3: Timeline
-summary3: 2020 - 2021
+summary3: 2022 - Present
+
+link1: Thesis (Work in Progress)
+link1_url: ocadu.ca
 
 context: >
-  GreedyGame's former SDK : SDK 8 is a library for Android game developers to integrate ads in their apps for monetisation. SDK 8 can served ads from multiple ad inventories including Google AdMob, Facebook Ads, and in-house demand. The differentiating factor among the other alternatives in the ease of Native ads integration. 
+  Since I arrived in Canada about 6 months ago, I’ve been trying to learn French through different techniques. I’ve tried some of the most popular apps such as Duolingo, completed certain French grammar exercises, and watched a bunch of French movies as well. Although I’ve caught some bits of grammar and vocabulary along the way, I feel that these techniques are not efficient. After a bit of research, I realized that conventional technological tools to learn languages are inefficient as they lack a real context. Immersion can significantly accelerate the learning process and I was curious to build an app that could make learning languages fun and highly efficient for me and all the other language learners.
 
-  Integrated with around 700 games, the SDK serves around 1B Ad requests per month. To rethink the product cycle and onboarding for SDK developers; SDK itself needed to be rethought.
-
-section1_title: Defining the problem
-section1_subtitle: Onboarding UX and Team workflow
-section1_content: Confusing User Experience for Developers and Mannual design system flow in the product team
+section1_title: Reimagining the way we learn
+section1_subtitle: Can we bring learning to life?
+section1_content: Context + Mixed Reality = Magic
 section1_img: ./src/img/sdkx/cover.png
 
-section2_title: Onboarding Process
-section2_content: An integration cycle would start with the Sales team pitching it to the publishers, once a publisher is willing to integrate the SDK in their Android app, the design team would come up with suggestions for the ad placements and mocks, post that once everyone gets on the same page, the developer would go through the Docs on the website for the instructions to integrate using Android Studio.
-section2_img: ./src/img/problem.png
+section2_title: Research Question
+section2_content: How can adaptive context-aware systems support interactive mixed reality learning experiences?
+section2_img: ./src/img/things_overview.png
+section2_img_credits: How Augmented Reality Will Change Education Completely | Florian Radke | TEDxGateway
+section3_title: >
+  # Prototype 1: Language Learning
+section3_content: Things is an app built for Android smart glasses with a camera and a microphone. The app features real-time intelligence to help you learn languages in an immersive context. When users wearing smart glasses look at any object around them, they see what’s that object called in the target language on the HUD(heads up display) screen. It currently supports 3 languages (French, Italian, and Japanese) and allows the users can switch between languages by tapping on the capacitive touch panel on the glasses. The smart glasses display the translation of the object’s name and speak out the pronunciation as well.
+section3_img: ./src/img/things_lang.png
 
-section3_title: Ad Unit dimension inconsistency
-section3_content: In the SDK 8 integration cycle, the designers from GreedyGame would design mocks in Photoshop which displayed ads over the screenshots to depict how the ad designs will look like when integrated. Once the app publisher approved of the placements, they would need to create ad units on the panel with an input box requesting dimensions. They did not understand what the actual values represented and how does it affect the actual ad size on Android phones.
-section3_img: ./src/img/adunit_inconsistency.png
-
-section4_title: Unable to check sample Test Ads until the SDK is implemented
+section4_title: >
+  # Prototype 2: Surface area and Volumes
 section4_content: Once a developer integrated the SDK, it was a tedious task to get the sample test ads, to verify the implementation. The developers took about an hour in average to setup test ads in multiple devices. They had to verify the ad implementations such as refresh time, loading time, debugging the issues, and checking for design alignment. The process is different from Google's AdMob SDK and since a lot of developers were coming from those lines, this method seemed a little unusual and added to bad user experience.
 section4_img: ./src/img/sample_ads.png
 
@@ -47,8 +50,9 @@ section5_content: For each native ad space and each app a publisher integrated G
 section5_img: ./src/img/sample_ads.png
 
 section6_title: Designing solutions
+section6_subtitle: Dynamic responsive Ad templates & User-centered Dashboard
 section6_img:
-section6_content:
+section6_content: Designed in XD and Built in Android Studio
 
 section7_title: Personas and User Flow
 section7_content: To start off, I created a provisional persona of a potential developer and a publisher based off the dataset of 100s of past clients that have integrated GreedyGame's SDK into their apps. They are either developers or publishers; this persona was created with assumptions and not fully research-based but it was something that I came back to throughout my project to guide my design decisions and priorities. I also created a user flow to show the flow for a publisher who wants to integrate SDK in his app. The highlighted areas represent the first 3 pain points which I will tacle in my design solutions.

@@ -1,35 +1,32 @@
 ---
-layout: layouts/work_vrdatavis.njk
+layout: layouts/works/work_sdkx.njk
 tags: post
-
-cover: ./src/img/vrvis_cover.png
-
 related:
-  - WebXR
-  - Data Visualization
+  - Android
   - UI/UX
-
-title: VR Ego-centric Data Navigation
+cover: ./src/img/sdkx_cover.png
+title: >
+  Dynamic Ad Design System Optimization
 date: Created
+product: >
+  GreedyGame SDK X
+subtitle: Optimized the user onboarding time for SDK X by 400%
+summary_title1: Aim
+summary1: Reduce Integration Cycle time and improve user onboarding experience
 
-link1: Live demo
-link1_url: https://egocentricdataviz.surge.sh/
-link2: Research Paper
-link2_url: https://www.researchgate.net/publication/337223649_Ego-centric_Data_Visualization
-
-subtitle: Naviagate Higher-dimensional data scaled to 3D in VR
-
-summary_title1: Research Lab
-summary1: DGP @ University of Toronto
-
-summary_title2: Team
-summary2: Dr. Karan Singh, Aaditya Vaze
+summary_title2: My Role
+summary2: Plan features for release cycles, UX Research, Prototyping and High-fidelity mocks, UI Development
 
 summary_title3: Timeline
-summary3: 2018 - 2019
+summary3: 2020 - 2021
+
+link1: GreedyGame SDK X
+link1_url: https://greedygame.com/products/sdk-x
 
 context: >
-  This research project was aimed to visualize higher-dimensional data scaled to 3D in VR. We developed an ego-centric data-visualization technique using JS in VR for interaction and navigation across webspaces. Worked under the supervision of Dr. Karan Singh in the DGP Lab at the University of Toronto.
+  GreedyGame's former SDK : SDK 8 is a library for Android game developers to integrate ads in their apps for monetisation. SDK 8 can served ads from multiple ad inventories including Google AdMob, Facebook Ads, and in-house demand. The differentiating factor among the other alternatives in the ease of Native ads integration. 
+
+  Integrated with around 700 games, the SDK serves around 1B Ad requests per month. To rethink the product cycle and onboarding for SDK developers; SDK itself needed to be rethought.
 
 section1_title: Defining the problem
 section1_subtitle: Onboarding UX and Team workflow
@@ -53,8 +50,9 @@ section5_content: For each native ad space and each app a publisher integrated G
 section5_img: ./src/img/sample_ads.png
 
 section6_title: Designing solutions
+section6_subtitle: Dynamic responsive Ad templates & User-centered Dashboard
 section6_img:
-section6_content:
+section6_content: Designed in XD and Built in Android Studio
 
 section7_title: Personas and User Flow
 section7_content: To start off, I created a provisional persona of a potential developer and a publisher based off the dataset of 100s of past clients that have integrated GreedyGame's SDK into their apps. They are either developers or publishers; this persona was created with assumptions and not fully research-based but it was something that I came back to throughout my project to guide my design decisions and priorities. I also created a user flow to show the flow for a publisher who wants to integrate SDK in his app. The highlighted areas represent the first 3 pain points which I will tacle in my design solutions.

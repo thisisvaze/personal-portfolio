@@ -115,7 +115,7 @@ module.exports = function (eleventyConfig) {
         <img
           src="${lowestSrc.url}"
           width="${lowestSrc.width}"
-          style="height:15vh; object-fit:contain;overflow: hidden;"
+          style="height:15vh; object-fit:contain; overflow: hidden;"
           alt="${alt}">
       </picture>`;
     }
