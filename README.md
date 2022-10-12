@@ -1,11 +1,12 @@
 # Clone and Run
 ```
-npm run install
+npm install
 ```
+## To test
 ```
 npm run watch
 ```
-
+## To deploy
 ```
 npm run deploy
 ```
