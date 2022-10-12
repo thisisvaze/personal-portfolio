@@ -1,32 +1,25 @@
 <div class="row d-flex justify-content-center">
-  <div class="col-12">
+  <div class="">
     {%- for post in posts %}
-      <div class="py-5 border-bottom">
-        <a href="{{ post.url | url }}" class="text-decoration-none text-dark"><h2 class="display-4">{{ post.data.title}}</h2></a>
-        <p>Published
-          <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-        </p>
-        <p>
-        {% for tag in post.data.tags | filterTagList %}
-          {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-          <a href="{{ tagUrl | url }}" class="btn btn-outline-dark btn-sm me-2">{{ tag }}</a>
-        {% endfor %}
-      </p>
-        <p>{{ post.data.summary }}</p>
-        <a href="{{ post.url | url }}" class="link-fancy">Read more...</a>
+      <div  class="py-5">
+
+        <a href="{{ post.url | url }}" >{% myResponsiveImage "" + post.data.cover,
+          "ss" %}
+        </a>
+
+        <div class="col-12 px-3 py-3" style="background-image: url('./img/bg_cover.png');background-size: cover;">
+          <a href="{{ post.url | url }}" class="text-decoration-none text-dark">
+            <h2>{{ post.data.title}}</h2>
+          </a>
+          <p>{{ post.data.subtitle }}</p>
+          {% for tag in post.data.related %}
+            <a class="btn btn-light btn-sm me-2">
+              {{tag}}
+            </a>
+          {% endfor %}
+        </div>
+
       </div>
     {% endfor %}
-  </div>
-</div>
-
-<div class="row d-flex justify-content-center">
-  <div class="col-12">
-    <div class="row d-flex justify-content-between">
-      <div class="col">
-        {% if pagination.href.previous %}
-          <a href="{{pagination.href.previous}}" class="btn btn-outline-primary">< Previous Page</a> {% endif %} </div> <div class="col text-end"> {% if pagination.href.next %} <a href="{{pagination.href.next}}" class="btn btn-outline-primary">Next Page ></a>
-        {% endif %}
-      </div>
-    </div>
   </div>
 </div>

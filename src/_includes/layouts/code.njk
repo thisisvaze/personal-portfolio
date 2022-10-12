@@ -9,7 +9,7 @@
 
     {% include 'snippets/navbar.njk' %}
 
-    <main class="container py-vh-5">
+    <main class="container">
       <div class="row d-flex justify-content-center">
         <div class="col-12">
           <header class="py-4">
@@ -22,9 +22,11 @@
           </p>
           <div class="rounded-top border p-4">
             {{ content | safe }}
-</div>
+          </div>
           <div class="bg-light rounded border border-top-0 p-4">
-                <code><xmp class="w-auto font-monospace" style="overflow-x:scroll;">{{ content | safe}}</xmp></code>
+            <code>
+              <xmp class="w-auto font-monospace" style="overflow-x:scroll;">{{ content | safe}}</xmp>
+            </code>
           </div>
         </div>
       </div>

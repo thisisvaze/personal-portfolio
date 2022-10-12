@@ -29,6 +29,8 @@
 .lead {
   @include font-size($lead-font-size);
   font-weight: $lead-font-weight;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
 }
 
 // Type display classes

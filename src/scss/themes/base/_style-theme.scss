@@ -1,27 +1,35 @@
 body {
-  letter-spacing:-.02rem;
+  letter-spacing:-.0rem;
 }
 
 .link-fancy {
   text-decoration: none;
   display: inline-block;
   position: relative;
+  text-align: center;
 }
+
+.highlight{
+  color: $primary;
+  
+}
+
 
 .link-fancy:before {
   content: '';
-  display: block;
+  text-align: center;
+  display: inline-block;
   height: 1px;
   width: 100%;
   transform-origin: left;
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom:0;
   background-image: linear-gradient(90deg, $primary 0, $primary 25%, transparent 0, transparent 50%, $primary 0, $primary 75%, transparent 0, transparent);
   background-repeat: no-repeat;
   background-position: 0;
   background-size: 400% 1px;
-  transition: background-position 0.8s ease-in-out;
+  transition: background-position 0.4s ease-in-out;
 }
 
 .link-fancy:hover:before {
@@ -87,3 +95,14 @@ body {
   padding-top:14vh;
   padding-bottom:14vh;
 }
+
+.fs-0 {
+  font-size: 7rem;
+
+}
+
+@media (max-width: 768px)  {
+  .fs-0 {
+    font-size: 5rem;
+  }
+ }

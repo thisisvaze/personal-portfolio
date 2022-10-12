@@ -1,5 +1,8 @@
 ---
+layout: layouts/work_sdkx.njk
+tags: post
 title: Post 2
+cover: ./src/img/sdkx/cover.png
 date: Created
 summary: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
 ---
