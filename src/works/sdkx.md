@@ -7,7 +7,7 @@ related:
 cover: ./src/img/sdkx_cover.png
 title: >
   Dynamic Ad Design System Optimization
-date: Created
+date:
 product: >
   GreedyGame SDK X
 subtitle: Optimized the user onboarding time for SDK X by 400%

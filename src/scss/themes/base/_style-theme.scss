@@ -20,6 +20,18 @@ body {
 }
 
 
+.navbar-custom {
+  background-color: transparent !important;
+  z-index: 10;
+  height: 56px;
+}
+.index-cover-image{
+  z-index:-10; 
+  margin-top: -70px; 
+  height:55vh; 
+  object-fit:cover;
+  overflow: hidden;
+}
 .image-credits{
   color:lightblue
 }
@@ -109,8 +121,34 @@ body {
 
 }
 
+.work-cover{
+  position:relative;
+  height:45vh;
+  object-fit:cover;
+  overflow: hidden;
+  width: 100%;
+}
+
+.btn-custom {
+  background: rgba(255, 255, 255, 0.4) !important;
+  border: none !important;
+}
+
 @media (max-width: 768px)  {
   .fs-0 {
     font-size: 5rem;
   }
+  .fs-5 {
+    font-size: 1.1rem !important;
+  }
+  .top-aligned-container{
+    padding: 0;
+  }
+  .index-cover-image{
+    height:60vh;
+  }
+  .work-cover{
+    height:30vh;
+  }
+  
  }

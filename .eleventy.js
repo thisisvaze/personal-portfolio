@@ -2,8 +2,13 @@ const { DateTime } = require("luxon");
 const navigationPlugin = require("@11ty/eleventy-navigation");
 const Image = require("@11ty/eleventy-img");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
-
+const markdownIt = require("markdown-it");
 module.exports = function (eleventyConfig) {
+  let options = {
+    breaks: true,
+  };
+
+  eleventyConfig.setLibrary("md", markdownIt(options));
   //Add image support
 
   // works also with addLiquidShortcode or addJavaScriptFunction
@@ -38,6 +43,44 @@ module.exports = function (eleventyConfig) {
           src="${lowestSrc.url}"
           width="${lowestSrc.width}"
           style="height:30vh; object-fit:cover;overflow: hidden;"
+          class="w-100"
+          loading="lazy"
+          decoding="async"
+          alt="${alt}">
+      </picture>`;
+    }
+  );
+  eleventyConfig.addNunjucksAsyncShortcode(
+    "myProjectHeaderImage",
+    async function (src, alt, padding) {
+      if (alt === undefined) {
+        // You bet we throw an error on missing alt (alt="" works okay)
+        throw new Error(`Missing \`alt\` on myResponsiveImage from: ${src}`);
+      }
+      let outputFormat = "webp";
+      let stats = await Image(src, {
+        widths: [null],
+        formats: ["webp"],
+        urlPath: "/img/",
+        outputDir: "./dev/img/",
+      });
+      let lowestSrc = stats[outputFormat][0];
+      let sizes = "100vw"; // Make sure you customize this!
+      // Iterate over formats and widths
+      return `<picture>
+      ${Object.values(stats)
+        .map((imageFormat) => {
+          return `  <source type="image/${
+            imageFormat[0].format
+          }" srcset="${imageFormat
+            .map((entry) => `${entry.url} ${entry.width}w`)
+            .join(", ")}" sizes="${sizes}">`;
+        })
+        .join("\n")}
+        <img
+          class="work-cover"
+          src="${lowestSrc.url}"
+          width="${lowestSrc.width}"
           class="w-100"
           loading="lazy"
           decoding="async"

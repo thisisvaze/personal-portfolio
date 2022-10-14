@@ -1,7 +1,7 @@
 <div class="row d-flex justify-content-center">
   <div class="">
     {%- for post in posts %}
-      <div  class="py-5">
+      <div  class="py-4">
 
         <a href="{{ post.url | url }}" >{% myResponsiveImage "" + post.data.cover,
           "ss" %}
@@ -9,11 +9,13 @@
 
         <div class="col-12 px-3 py-3" style="background-image: url('./img/bg_cover.png');background-size: cover;">
           <a href="{{ post.url | url }}" class="text-decoration-none text-dark">
-            <p class="fs-2 mb-0">{{ post.data.title}}</p>
+            <p class="fs-2 lh-sm mb-0">{{ post.data.title}}</p>
           </a>
-          <p class="text-muted">{{ post.data.subtitle }}</p>
+          <p class="fs-6 text-muted">
+            <small>{{ post.data.subtitle }}</small>
+          </p>
           {% for tag in post.data.related %}
-            <a class="btn text-muted btn-light btn-sm me-2">
+            <a class="btn btn-light text-muted disabled btn-custom btn-sm me-2">
               {{tag}}
             </a>
           {% endfor %}
