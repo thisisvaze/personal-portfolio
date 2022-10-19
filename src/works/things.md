@@ -7,7 +7,7 @@ related:
   - Oculus Quest
 cover: ./src/img/things_cover.png
 title: >
-  Contextual learning with Mixed Reality
+  Contextual Language learning with Mixed Reality
 date: Created
 product: >
   Thesis (Work in Progress)
