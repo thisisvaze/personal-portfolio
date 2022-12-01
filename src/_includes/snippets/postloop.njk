@@ -9,9 +9,9 @@
 
         <div class="col-12 px-3 py-3" style="background-image: url('./img/bg_cover.png');background-size: cover;">
           <a href="{{ post.url | url }}" class="text-decoration-none text-dark">
-            <p class="fs-2 lh-sm mb-0">{{ post.data.title}}</p>
+            <p class="title-header fs-2 lh-sm mb-0">{{ post.data.title}}</p>
           </a>
-          <p class="fs-6 text-muted">
+          <p class="fs-5 text-muted">
             <small>{{ post.data.subtitle }}</small>
           </p>
           {% for tag in post.data.related %}

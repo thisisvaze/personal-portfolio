@@ -5,6 +5,16 @@
 <meta name="author" content="{{ metadata.author }}">
 <meta name="generator" content="{{ eleventy.generator }}">
 <meta name="HandheldFriendly" content="true"/>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<script src="/js/animations.js"></script>
 <title>{{ title or metadata.title }}</title>
 <!-- build:css -->
 <link rel="stylesheet" href="{{ '/css/theme.css' | url }}">

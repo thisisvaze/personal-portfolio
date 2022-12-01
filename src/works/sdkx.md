@@ -4,18 +4,19 @@ tags: post
 related:
   - Android
   - UI/UX
+  - Design system
 cover: ./src/img/sdkx_cover.png
 title: >
-  Dynamic Ad Design System Optimization
-date:
+  Design System for Dynamic Ads
+date: 2014-01-01
 product: >
   GreedyGame SDK X
-subtitle: Optimized the user onboarding time for SDK X by 400%
+subtitle: 5x revenue growth for SDK X
 summary_title1: Aim
 summary1: Reduce Integration Cycle time and improve user onboarding experience
 
 summary_title2: My Role
-summary2: Plan features for release cycles, UX Research, Prototyping and High-fidelity mocks, UI Development
+summary2: Product Concept, UX Research, Prototyping, High-fidelity mocks and UI Development
 
 summary_title3: Timeline
 summary3: 2020 - 2021

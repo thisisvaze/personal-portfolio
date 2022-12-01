@@ -10,7 +10,7 @@ related:
   - UI/UX
 
 title: VR Ego-centric Data Navigation
-date: Created
+date: 2015-01-01
 
 link1: Live demo
 link1_url: https://egocentricdataviz.surge.sh/
