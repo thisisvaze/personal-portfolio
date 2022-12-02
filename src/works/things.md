@@ -38,7 +38,7 @@ section3_content: Since I arrived in Canada, I’ve been trying to learn French 
 section3_img: ./src/img/things_problem.png
 section4_title: Identifying Pain Points
 section4_content: With an inspiration to make language learning fun and efficient for certain concepts I started research for user personas for language learners. I wanted to target language learners who had started learning recently; beginners since the advanced concepts needed deeper understanding of different languages for me and learn instructional design for teaching languages. Advanced learners can be a target for the future work and further iterations of this concept.
-section4_img: ./src/img/persona_things.png
+section4_img: ./src/img/personas.png
 section5_title: Hi-fi mockups & Development
 section5_content: The app features real-time intelligence to help you learn languages in an immersive context. When users wearing smart glasses look at any object around them, they see what’s that object called in the target language on the HUD(heads up display) screen. It supports about 100 languages and allows the users can switch between languages by tapping on the capacitive touch panel on the glasses. The smart glasses display the translation of the object’s name and speak out the pronunciation as well.
 section5_img: ./src/img/things_hifi.png

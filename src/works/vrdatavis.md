@@ -12,7 +12,7 @@ related:
 title: VR Ego-centric Data Navigation
 date: 2015-01-01
 result_title: Impact
-result_content: Average visibility improved upto 97% visibility with our method
+result_content: Average visibility improved upto 97% with our method
 link1: Live demo
 link1_url: https://egocentricdataviz.surge.sh/
 link2: Research Paper
