@@ -5,8 +5,8 @@
   </div>
   <div class="col-12 container">
     {% block extraArticleHeader %}
-      <p class="display-1 pt-2">{{ title }}</p>
-      <p class="fs-2 b pt-2">{{ subtitle }}</p>
+      <p class="display-3 pt-2">{{ title }}</p>
+
       <a class="link-fancy me-2" href= {{link1_url}}>
         <p class="fs-6 mb-0">{{ link1 }}</p>
       </a>
@@ -29,7 +29,12 @@
             <p class="fs-5">
               {{context}}
             </p>
-
+            <p class="mb-1 fw-bold">
+              {{result_title}}
+            </p>
+            <p class="fs-5">
+              {{result_content}}
+            </p>
           </div>
           <div class="col-12 col-lg-4">
             <p class="mb-1 fw-bold">

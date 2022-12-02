@@ -11,7 +11,8 @@ title: >
 date: 2014-01-01
 product: >
   GreedyGame SDK X
-subtitle: 5x revenue growth for SDK X
+result_title: Impact
+result_content: 5x revenue growth for SDK X
 summary_title1: Aim
 summary1: Reduce Integration Cycle time and improve user onboarding experience
 
@@ -35,7 +36,7 @@ section1_content: Confusing User Experience for Developers and Mannual design sy
 section1_img: ./src/img/sdkx/cover.png
 
 section2_title: >
-  #1 Long onboarding Process
+  #1 Long onboarding process
 section2_content: An integration cycle would start with the Sales team pitching it to the publishers, once a publisher is willing to integrate the SDK in their Android app, the design team would come up with suggestions for the ad placements and mocks, post that once everyone gets on the same page, the developer would go through the Docs on the website for the instructions to integrate using Android Studio.
 section2_img: ./src/img/problem.png
 
@@ -45,12 +46,12 @@ section3_content: In the SDK 8 integration cycle, the designers from GreedyGame 
 section3_img: ./src/img/adunit_inconsistency.png
 
 section4_title: >
-  #3 Inability to check Sample Test Ads until the SDK is implemented
+  #3 Inefficient feature for test ads
 section4_content: Once a developer integrated the SDK, it was a tedious task to get the sample test ads, to verify the implementation. The developers took about an hour in average to setup test ads in multiple devices. They had to verify the ad implementations such as refresh time, loading time, debugging the issues, and checking for design alignment. The process is different from Google's AdMob SDK and since a lot of developers were coming from those lines, this method seemed a little unusual and added to bad user experience.
 section4_img: ./src/img/sample_ads.png
 
 section5_title: >
-  #4 Mannual JSON templates for Native Ads
+  #4 Mannual JSON templates for native ads
 section5_content: For each native ad space and each app a publisher integrated GreedyGame SDK in, graphic designers at GreedyGame had to design JSON template for the specific Ad Size, incorporating assets that matched the app's UI. This required a lot of man hours and monotonous activities that could be automated.
 section5_img: ./src/img/sample_ads.png
 

@@ -151,7 +151,24 @@ body {
   font-size: 5rem;
 }
 
+.px-10{
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
 
+.py-10{
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.px-20{
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.py-20{
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
 .work-cover{
   position:relative;
   height:45vh;
@@ -181,5 +198,22 @@ body {
   .work-cover{
     height:30vh;
   }
+  .px-10{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   
+  .py-10{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .px-20{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .py-20{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
  }
