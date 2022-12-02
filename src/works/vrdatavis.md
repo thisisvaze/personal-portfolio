@@ -51,10 +51,12 @@ section4_content: >
 section4_content_2: >
   Finally, we verify the visibility of the nodes with full opacity and use parameters such as spring stiffness of radial-repulsion forces and size of the nodes to remove minor occlusions. A new force was introduce to avoid object oclusions in VR. Users should be able to see all the data points clearly in space.
 section4_img: ./src/img/vr_repulsion.png
+section4_img2: ./src/img/replusion_force.png
 section5_title: Implementation
-section5_subtitle: Modified Force-directed simulation with WebVR
-section5_content:
-section5_img: ./src/img/vr_random_obj.png
+section5_subtitle: d3-force-3d and WebXR
+section5_content: We built a tool where data with nodes and affinity could be used to visualize in VR with maximum visibility. As it's built with WebXR, it is browser-based and supports multiple headsets.
+section5_img: ./src/img/vr_d3_force_1.png
+section5_img2: ./src/img/vr_random_obj.png
 
 # section6_title: Radial repulsion force
 # section6_content:
