@@ -19,8 +19,38 @@ body {
   color: $primary;
   
 }
+.bg-full {
+  position: relative;
+}
 
-
+.bg-full:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: -1;
+  transform: translateX( -50%);
+  height: 100%;
+  width: 100vw;
+  background: #F6F6F6;
+}
+.bg-full-gradient {
+  position: relative;
+  background-repeat: no-repeat;
+}
+.bg-full-gradient:before{
+  content: '';
+  height:23vh; 
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  background-image: url('/img/bg_cover.png');
+  left: 50%;
+  z-index: -1;
+  transform: translateX( -50%);
+  height: 100%;
+  width: 100vw;
+}
 .navbar-custom {
   background-color: transparent !important;
   z-index: 10;

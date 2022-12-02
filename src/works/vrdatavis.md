@@ -37,7 +37,7 @@ section1_subtitle: Build  a tool to view and navigate search results in VR
 section1_content:
 section1_img: ./src/img/sdkx/cover.png
 
-section2_title: Abstract
+section2_title: Overview
 section2_content: Over the last few decades technology has revolutionized the ability to create, store and retrieve information on a whim. Information visualization, the art of representing data in a way that it is easy to understand and to manipulate, can help us make sense of information and thus make it useful in our lives. Information Visualization tools currently used are restricted to 2D screens, but with the recent developments in AR/VR give us the ability to visualize information and navigate web in the 3D space. In this report, we design and develop new techniques to interact with information in the AR/VR space.
 section2_img: ./src/img/vr_data.png
 
@@ -46,11 +46,13 @@ section3_content: Reducing higher-dimensional data with force-field implementati
 section3_img: ./src/img/vr_rep_data.png
 
 section4_title: 2. Radial replusion force
-section4_content: We start with a data set and its corresponding affinity matrix, and assign random initial position of points in 3D around the user and using physics simulation, let the points settle down on a local minima, according to their affinity. With plethora of data points around the user to look at,there are some ways in which this visualization can be improved. First of all, from the user’s viewpoint, when visualizing data points, points that are close by in the line of sight can intersect and result in an occluded vision, to solve this, we introduce new forces in the system, namely radial repulsion forces between the points that are close enough radially. Secondly, we designate points that are of higher importance as landmarks and reduce the opacity of points that are far enough and not landmarks. Finally, we verify the visibility of the nodes with full opacity and use parameters such as spring stiffness of radial-repulsion forces and size of the nodes to remove minor occlusions. A new force was introduce to avoid object oclusions in VR. Users should be able to see all the data points clearly in space.
+section4_content: >
+  We start with a data set and its corresponding affinity matrix, and assign random initial position of points in 3D around the user and using physics simulation, let the points settle down on a local minima, according to their affinity. With plethora of data points around the user to look at,there are some ways in which this visualization can be improved. First of all, from the user’s viewpoint, when visualizing data points, points that are close by in the line of sight can intersect and result in an occluded vision, to solve this, we introduce new forces in the system, namely radial repulsion forces between the points that are close enough radially. Secondly, we designate points that are of higher importance as landmarks and reduce the opacity of points that are far enough and not landmarks.
+section4_content_2: >
+  Finally, we verify the visibility of the nodes with full opacity and use parameters such as spring stiffness of radial-repulsion forces and size of the nodes to remove minor occlusions. A new force was introduce to avoid object oclusions in VR. Users should be able to see all the data points clearly in space.
 section4_img: ./src/img/vr_repulsion.png
-
 section5_title: Implementation
-section5_subtitle: Modified Force-directed simulation
+section5_subtitle: Modified Force-directed simulation with WebVR
 section5_content:
 section5_img: ./src/img/vr_random_obj.png
 
