@@ -9,13 +9,10 @@ cover: ./src/img/things_cover.png
 title: >
   Contextual learning with Mixed Reality
 date: 2014-01-01
-product: >
-  Thesis (Work in Progress)
-subtitle: M.Des. Thesis @ OCAD University
 summary_title1: MR Headset support
 summary1: Meta Quest & Hololens 2
-result_title: Superviors
-result_content: Dr. Alexis Morris, Dr. Ian Clarke
+result_title: M.Des. Thesis (In Progress)
+result_content: Supervised by Dr. Alexis Morris, Dr. Ian Clarke
 summary_title2: Tools
 summary2: Unity, MRTK, Socket.io, PyTorch
 summary_title3: Timeline
