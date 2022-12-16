@@ -20,8 +20,6 @@ link2_url: https://www.researchgate.net/publication/337223649_Ego-centric_Data_V
 link3: GitHub
 link3_url: https://github.com/aadityavaze/ego-centric-data-viz
 
-subtitle: Naviagate Higher-dimensional data scaled to 3D in VR
-
 summary_title1: Research Lab
 summary1: DGP @ University of Toronto
 

@@ -18,7 +18,6 @@ summary_title2: Tools
 summary2: Unity, OpenXR, MRTK, Socket.io, PyTorch
 summary_title3: Timeline
 summary3: 2022 - Present
-
 # link1: Thesis (Work in Progress)
 # link1_url: ocadu.ca
 
