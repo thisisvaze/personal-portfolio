@@ -1,0 +1,14 @@
+{
+  "grammarly.selectors": [
+    {
+      "language": "markdown",
+      "scheme": "file",
+      "pattern": "src/works/things.md"
+    },
+    {
+      "language": "markdown",
+      "scheme": "file",
+      "pattern": "src/works/sdkx.md"
+    }
+  ]
+}

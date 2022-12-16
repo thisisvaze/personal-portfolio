@@ -40,7 +40,7 @@ body {
 }
 .bg-full-gradient:before{
   content: '';
-  height:23vh; 
+  height:fit-content; 
   background-size: cover;
   position: absolute;
   top: 0;
@@ -178,7 +178,7 @@ body {
 }
 
 .btn-custom {
-  background: rgba(255, 255, 255, 0.4) !important;
+  background: rgba(0, 0, 0, 0.04) !important;
   border: none !important;
 }
 
