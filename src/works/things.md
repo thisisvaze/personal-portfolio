@@ -44,8 +44,11 @@ section4_img2_caption: Sketches to visualize outdoor use cases
 section5_title: Hi-fi mockups & Development
 section5_content: The app features real-time intelligence to help you learn languages in an immersive context. When users wearing smart glasses look at any object around them, they see what’s that object called in the target language on the HUD(heads-up display) screen. It supports about 100 languages and allows the users can switch between languages by tapping on the capacitive touch panel on the glasses. The smart glasses display the translation of the object’s name and speak out the pronunciation as well.
 section5_img: ./src/img/things_hifi.png
+section5_img_caption: Hi fidelity mockups for language learning with Hololens 2
 section5_img2: ./src/img/things_lang.png
+section5_img2_caption: Android Prototype on Vuzix Blade smart glasses
 section5_img3: ./src/img/things_how.png
+section5_img3_caption: Underlying Technical Process
 section6_title: Prototype 2
 section6_subtitle: Curiosity visualization agent
 section6_subtitle2: The Motivation
@@ -60,7 +63,7 @@ section7_content: This prototype aims to understand the benefits and scope of a 
 section8_title: Outcomes
 section8_img: ./src/img/p2_visualization.png
 section8_img_caption: Saying "Can I see mars?" shows 3D model of mars
-section8_img2: ./src/img/apple_visualization.png
+section8_gif2: ./src/img/apple_viz.gif
 section8_img2_caption: Sketching apple renders 3D model of an apple
 section8_content: The demo is built on Microsoft Hololens 2, with real-time object detection from the sketch using a custom-trained model. The model is trained on the Google Quickdraw dataset and works with around 350 common objects (chairs, cars, apples, etc.). The 3D models are fetched from the SketchFab API. This allows for real-time searching for models such as an “apple”, filtering and finding a suitable model that is supported by Hololens 2, downloading it, and then rendering it in front of the user. The user can then use their hands to interact with these objects to either scale, rotate or move them in the space.
 

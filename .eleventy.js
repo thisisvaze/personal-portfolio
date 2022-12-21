@@ -127,7 +127,46 @@ module.exports = function (eleventyConfig) {
       </picture>`;
     }
   );
-
+  eleventyConfig.addNunjucksAsyncShortcode(
+    "myBlogGIF",
+    async function (src, alt) {
+      if (alt === undefined) {
+        // You bet we throw an error on missing alt (alt="" works okay)
+        throw new Error(`Missing \`alt\` on myResponsiveImage from: ${src}`);
+      }
+      let outputFormat = "gif";
+      let stats = await Image(src, {
+        widths: [1024],
+        formats: ["gif"],
+        sharpOptions: {
+          animated: true,
+        },
+        urlPath: "/img/",
+        outputDir: "./dev/img/",
+      });
+      let lowestSrc = stats[outputFormat][0];
+      let sizes = "100vw"; // Make sure you customize this!
+      // Iterate over formats and widths
+      return `<picture>
+      ${Object.values(stats)
+        .map((imageFormat) => {
+          return `  <source type="image/${
+            imageFormat[0].format
+          }" srcset="${imageFormat
+            .map((entry) => `${entry.url} ${entry.width}w`)
+            .join(", ")}" sizes="${sizes}">`;
+        })
+        .join("\n")}
+        <img
+          src="${lowestSrc.url}"
+          width="${lowestSrc.width}"
+          class="w-100  col-8"
+          loading="lazy"
+          decoding="async"
+          alt="${alt}">
+      </picture>`;
+    }
+  );
   eleventyConfig.addNunjucksAsyncShortcode(
     "myProfilePhoto",
     async function (src, alt) {
