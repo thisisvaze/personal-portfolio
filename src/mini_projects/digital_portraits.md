@@ -1,14 +1,13 @@
 ---
-layout: layouts/works/work_sdkx.njk
-tags: post
+layout: layouts/mini_projects/digital_portraits.njk
+tags: mini_project
 related:
-  - Android
-  - UI/UX
-  - Design system
-cover: ./src/img/sdkx_cover.png
+  - Procreate
+  - Photoshop
+cover: ./src/img/digital_portraits_cover.png
 title: >
-  SDK X: Design System for Dynamic Ads
-subtitle: Product Design project @ GreedyGame
+  Digital Portraits
+subtitle: Sketching emotions in pixels
 date: 2014-01-01
 product: >
   GreedyGame SDK X
@@ -50,7 +49,7 @@ section4_img: ./src/img/challenge_testad.png
 section5_title: >
   #4 Manual JSON templates for native ads
 section5_content: For each native ad space and each app a publisher integrated GreedyGame SDK in, graphic designers at GreedyGame had to design a JSON template for the specific Ad Size, incorporating assets that matched the app's UI. This required a lot of man-hours and monotonous activities that could be automated.
-section5_img: ./src/img/challenge_testad.png
+section5_img: ./src/img/sample_challenge_testadads.png
 
 section6_title: Designing solutions
 section6_subtitle: Dynamic responsive Ad templates & User-centric Dashboard

@@ -202,6 +202,40 @@ module.exports = function (eleventyConfig) {
       </picture>`;
     }
   );
+  eleventyConfig.addNunjucksAsyncShortcode(
+    "mainCoverImage",
+    async function (src, alt) {
+      if (alt === undefined) {
+        // You bet we throw an error on missing alt (alt="" works okay)
+        throw new Error(`Missing \`alt\` on mainCoverImage from: ${src}`);
+      }
+      let outputFormat = "webp";
+      let stats = await Image(src, {
+        widths: [1024],
+        formats: ["webp"],
+        urlPath: "/img/",
+        outputDir: "./dev/img/",
+      });
+      let lowestSrc = stats[outputFormat][0];
+      let sizes = "100vw"; // Make sure you customize this!
+      // Iterate over formats and widths
+      return `<picture>
+      ${Object.values(stats)
+        .map((imageFormat) => {
+          return `  <source type="image/${
+            imageFormat[0].format
+          }" srcset="${imageFormat
+            .map((entry) => `${entry.url} ${entry.width}w`)
+            .join(", ")}" sizes="${sizes}">`;
+        })
+        .join("\n")}
+        <img
+          class="index-cover-image w-100 position-absolute"
+          src="${lowestSrc.url}"
+          alt="${alt}">
+      </picture>`;
+    }
+  );
   // Add a filter using the Config API
   eleventyConfig.addWatchTarget("./src/scss/");
   eleventyConfig.setBrowserSyncConfig({

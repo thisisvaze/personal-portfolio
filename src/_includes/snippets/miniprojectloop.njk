@@ -1,0 +1,28 @@
+<div class="row d-flex justify-content-center">
+
+  {%- for mini_project in mini_projects %}
+    <div class="col-lg-6 col-md-12">
+      <div class="py-4">
+
+        <a href="{{ mini_project.url | url }}" >{% myResponsiveImage "" + mini_project.data.cover,
+          "ss" %}
+        </a>
+
+        <div class="col-12 py-3" style="background-color: #ffffff;background-size: cover;">
+          <a href="{{ mini_project.url | url }}" class="text-decoration-none text-dark">
+            <p class="title-header fs-2 lh-sm mb-0">{{ mini_project.data.title}}</p>
+          </a>
+          <p class="fs-5 text-muted">
+            <small>{{ mini_project.data.subtitle }}</small>
+          </p>
+          {% for tag in mini_project.data.related %}
+            <a class="btn btn-light text-muted disabled btn-custom btn-sm me-2">
+              {{tag}}
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+
+</div>

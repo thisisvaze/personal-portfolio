@@ -1,0 +1,37 @@
+<!doctype html>
+<html class="h-100" lang="{{ metadata.language }}">
+
+  <head>
+    {% include 'snippets/head.njk' %}
+  </head>
+
+  <body>
+    {% include 'snippets/navbar.njk' %}
+    {% mainCoverImage "././src/img/main_bg_2.png",
+    "ss" %}
+    <main class="container py-vh-0">
+      <div class="row d-flex justify-content-center">
+        <div class="py-vh-6 col-12 col-xl-8 my-4 text-center">
+          <h1 class=" display-4">{{ title }}</h1>
+          <p class="fs-5">{{ subtitle }}</p>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="container py-vh-0 px-0">
+    <div class="row d-flex justify-content-center">
+      <div class="col-10 col-lg-8">
+        {% include 'snippets/miniprojectloop.njk' %}
+      </div>
+    </div>
+  </div>
+
+  <footer class="container">
+    {% include 'snippets/footer.njk' %}
+  </footer>
+
+</body>
+
+</html>

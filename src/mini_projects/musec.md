@@ -1,14 +1,13 @@
 ---
-layout: layouts/works/work_sdkx.njk
-tags: post
+layout: layouts/mini_projects/musec.njk
+tags: mini_project
 related:
-  - Android
-  - UI/UX
-  - Design system
-cover: ./src/img/sdkx_cover.png
+  - Muse BCI headband
+  - Arduino
+cover: ./src/img/musec_cover.png
 title: >
-  SDK X: Design System for Dynamic Ads
-subtitle: Product Design project @ GreedyGame
+  Musec
+subtitle: BCI interface for playing keyboard
 date: 2014-01-01
 product: >
   GreedyGame SDK X

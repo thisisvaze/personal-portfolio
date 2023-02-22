@@ -1,17 +1,16 @@
 ---
-layout: layouts/works/work_sdkx.njk
-tags: post
+layout: layouts/mini_projects/branding.njk
+tags: mini_project
 related:
-  - Android
-  - UI/UX
-  - Design system
-cover: ./src/img/sdkx_cover.png
+  - Brand Identity
+  - UI Design
+cover: ./src/img/awry_cover.png
 title: >
-  SDK X: Design System for Dynamic Ads
-subtitle: Product Design project @ GreedyGame
+  awry.design
+subtitle: Designing brand identities for tech startups
 date: 2014-01-01
 product: >
-  GreedyGame SDK X
+  awry.design
 result_title: Impact
 result_content: 5x revenue growth with SDK X
 summary_title1: Aim
@@ -21,12 +20,12 @@ summary_title2: My Role
 summary2: Product Concept, UX Research, Prototyping, High-fidelity mocks & UI Development
 
 summary_title3: Timeline
-summary3: 2020 - 2021
+summary3: 2022
 
-link1: GreedyGame
-link1_url: https://greedygame.com/products/sdk-x
+link1: awry.design on Behance
+link1_url: https://www.behance.net/awrydesign
 
-context: SDK 8 was a library for Android developers to integrate ads in their apps for monetization. Ads are served from multiple inventories (Google AdMob, Facebook Ads etc). The new iteration, SDK X was built to efficiently support native ad integrations for around 10K+ apps serving 1B+ Ad requests per month.
+context: Helping tech startups boost with a unique brand identity
 
 section1_title: Defining Problems
 section1_subtitle: Frustrating Onboarding Experience & Manual team workflow

@@ -1,14 +1,14 @@
 ---
-layout: layouts/works/work_sdkx.njk
-tags: post
+layout: layouts/mini_projects/splash_gradients.njk
+tags: mini_project
 related:
-  - Android
-  - UI/UX
-  - Design system
-cover: ./src/img/sdkx_cover.png
+  - p5.js
+  - Interaction Design
+  - ml5.js
+cover: ./src/img/p5_cover.png
 title: >
-  SDK X: Design System for Dynamic Ads
-subtitle: Product Design project @ GreedyGame
+  Delightful bits
+subtitle: Body-sensing interaction design experiments
 date: 2014-01-01
 product: >
   GreedyGame SDK X
