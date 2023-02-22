@@ -7,6 +7,7 @@ related:
   - Mixed Reality
   - Machine Learning
 cover: ./src/img/things_cover.png
+subtitle: M. Des. Thesis @ OCAD University
 title: >
   Contextual learning with Mixed Reality
 date: 2014-01-01

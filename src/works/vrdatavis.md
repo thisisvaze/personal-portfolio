@@ -10,6 +10,7 @@ related:
   - UI/UX
 
 title: VR Ego-centric Data Navigation
+subtitle: MITACS Research Project @ University of Toronto
 date: 2015-01-01
 result_title: Impact
 result_content: Average visibility improved upto 97% with our method

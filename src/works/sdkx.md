@@ -8,6 +8,7 @@ related:
 cover: ./src/img/sdkx_cover.png
 title: >
   SDK X: Design System for Dynamic Ads
+subtitle: Product Design project @ GreedyGame
 date: 2014-01-01
 product: >
   GreedyGame SDK X
