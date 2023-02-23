@@ -51,6 +51,44 @@ module.exports = function (eleventyConfig) {
     }
   );
   eleventyConfig.addNunjucksAsyncShortcode(
+    "myOtherResponsiveImage",
+    async function (src, alt, padding) {
+      if (alt === undefined) {
+        // You bet we throw an error on missing alt (alt="" works okay)
+        throw new Error(`Missing \`alt\` on myResponsiveImage from: ${src}`);
+      }
+      let outputFormat = "webp";
+      let stats = await Image(src, {
+        widths: [null],
+        formats: ["webp"],
+        urlPath: "/img/",
+        outputDir: "./dev/img/",
+      });
+      let lowestSrc = stats[outputFormat][0];
+      let sizes = "100vw"; // Make sure you customize this!
+      // Iterate over formats and widths
+      return `<picture>
+      ${Object.values(stats)
+        .map((imageFormat) => {
+          return `  <source type="image/${
+            imageFormat[0].format
+          }" srcset="${imageFormat
+            .map((entry) => `${entry.url} ${entry.width}w`)
+            .join(", ")}" sizes="${sizes}">`;
+        })
+        .join("\n")}
+        <img
+          src="${lowestSrc.url}"
+          width="${lowestSrc.width}"
+          style="height:20vh; object-fit:cover;overflow: hidden;"
+          class="w-100"
+          loading="lazy"
+          decoding="async"
+          alt="${alt}">
+      </picture>`;
+    }
+  );
+  eleventyConfig.addNunjucksAsyncShortcode(
     "myProjectHeaderImage",
     async function (src, alt, padding) {
       if (alt === undefined) {

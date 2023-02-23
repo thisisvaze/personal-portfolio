@@ -11,18 +11,17 @@ subtitle: Designing brand identities for tech startups
 date: 2014-01-01
 product: >
   awry.design
-result_title: Impact
-result_content: 5x revenue growth with SDK X
-summary_title1: Aim
-summary1: Reduce Integration Cycle time and improve user onboarding experience
 
-summary_title2: My Role
-summary2: Product Concept, UX Research, Prototyping, High-fidelity mocks & UI Development
+summary_title1: Past clients
+summary1: Loopin, Felvin, Paperboat beverages
+
+summary_title2: Sevices
+summary2: Brand Identity, UI Concept Deisgn, Product Design
 
 summary_title3: Timeline
-summary3: 2022
+summary3: 2022 - Present
 
-link1: awry.design on Behance
+link1: Portfolio
 link1_url: https://www.behance.net/awrydesign
 
 context: Helping tech startups boost with a unique brand identity

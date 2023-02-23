@@ -4,13 +4,13 @@
     <div class="col-lg-6 col-md-12">
       <div class="py-4">
 
-        <a href="{{ mini_project.url | url }}" >{% myResponsiveImage "" + mini_project.data.cover,
+        <a href="{{ mini_project.url | url }}" >{% myOtherResponsiveImage "" + mini_project.data.cover,
           "ss" %}
         </a>
 
         <div class="col-12 py-3" style="background-color: #ffffff;background-size: cover;">
           <a href="{{ mini_project.url | url }}" class="text-decoration-none text-dark">
-            <p class="title-header fs-2 lh-sm mb-0">{{ mini_project.data.title}}</p>
+            <p class="title-header fs-3 lh-sm mb-0">{{ mini_project.data.title}}</p>
           </a>
           <p class="fs-5 text-muted">
             <small>{{ mini_project.data.subtitle }}</small>
