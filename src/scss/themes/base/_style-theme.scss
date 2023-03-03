@@ -189,9 +189,13 @@ body {
   letter-spacing: -0.05rem; 
 }
 
+
 @media (max-width: 768px)  {
   .fs-0 {
     font-size: 5rem;
+  }
+  .navbar-brand{
+    letter-spacing: -0.03rem;
   }
   .fs-5 {
     font-size: 1.1rem !important;
