@@ -1,154 +1,124 @@
 <div class="col-12">
   <p class="lead">
-    <p class="text-center fs-1 pb-5">{{section1_title}}</p>
-    <div class=" py-vh-2 text-center bg-full-gradient">
-      <h1 class="">{{section1_subtitle}}</h1>
-      <p class="fs-5">{{ section1_content }}</p>
-    </div>
+
+    <div class="text-muted pt-0 text-center pb-3 fs-5">{{section1_subtitle}}</div>
+    <p class="text-center fs-1 pb-0">{{section1_title}}</p>
   </p>
   <div class="row justify-content-center">
-    <div class="col-12 col-xl-10 py-5">
-      <h2>{{section2_title}}</h2>
-      <p class="fs-5">{{ section2_content }}</p>
+    <div class="col-12 col-xl-10 py-0">
       <div class="py-5">
         {% myBlogImage "" + section2_img,
         "ss" %}
         <p class="text-muted h6 small">{{section2_img_credits}}</p>
       </div>
+      <h2>{{section2_title}}</h2>
+      <p class="fs-5">{{ section2_content }}</p>
+
     </div>
   </div>
+
+  <div class="py-10"></div>
   <div class="row justify-content-center">
-    <div class="col-12 col-xl-10 py-5">
-      <h4 class="text-center fs-4">{{section3_title}}</h4>
-      <h1 class="text-center display-2 pb-5">{{section3_subtitle}}</h1>
+    <div class="col-12 col-xl-10 ">
 
-      <div class="text-muted pt-5 text-center pb-3 fs-5">{{section3_subtitle2}}</div>
+      <div class="text-muted pt-5 text-center pb-3 fs-5">{{section6_subtitle2}}</div>
       <div class="text-center py-vh-2 bg-full-gradient">
-        <p class="h4 fs-2 pt-1">{{section3_subtitle2_content}}</p>
+        <p class="h4 fs-2 pt-1">{{section6_subtitle2_content}}</p>
       </div>
+      <p class="pt-5 fs-5">{{ section6_content }}</p>
 
-      <p class="pt-5 fs-5">{{ section3_content }}</p>
+      <p></div>
+    </div>
+  </div>
+  <div class="pb-10 row justify-content-center">
+    <div class="col-12 col-xl-10 py-5">
+      <h3>{{section7_title}}</h3>
+      <p class="fs-5">{{ section7_content }}</p>
+      <div class="pt-5 pb-0">
+        {% myBlogImage "" + section7_img,
+        "ss" %}
+        <p class="text-center pt-2 text-muted h6 small">{{section7_img_caption}}</p>
+
+      </div>
+      <div class="pt-5 px-10  pb-0">
+        {% myBlogImage "" + section7_img2,
+        "ss" %}
+        <p class="text-center pt-4 pb-5 text-muted h6 small">{{section7_img2_caption}}</p>
+      </div>
       <p></div>
     </div>
 
     <div class="bg-full py-10 row justify-content-center">
-      <div class="col-12 col-xl-10 pb-5">
-        <h3>{{section4_title}}</h3>
-        <p class="fs-5">{{ section4_content }}</p>
-        <div class="pt-5 px-10">
-          {% myBlogImage "" + section4_img,
+      <div class="col-12 col-xl-10">
+        <h3>{{section8_title}}</h3>
+        <p class="fs-5">{{ section8_content }}</p>
+        <div class="pt-5 px-10 pb-0">
+          {% myBlogImage "" + section8_img,
           "ss" %}
+          <p class="text-center pt-2 text-muted h6 small">{{section8_img_caption}}</p>
 
         </div>
-      </div>
-    </div>
-    <div class="py-10 row justify-content-center">
-      <div class="col-12 col-xl-10 pb-5">
-        <h3>{{section4a_title}}</h3>
-        <p class="fs-5">{{ section4a_content }}</p>
-        <div class="pt-5 px-10">
-          {% myBlogImage "" + section4a_img,
+        <div class="pt-5 px-10 pb-0">
+          {% myBlogGIF "" + section8_gif2,
           "ss" %}
-          <p class="text-center pt-2 text-muted h6 small">{{section4_img_caption}}</p>
-        </div>
-        <div class="pt-5 px-10">
-          {% myBlogImage "" + section4a_img2,
-          "ss" %}
-          <p class="text-center pt-2 text-muted h6 small">{{section4_img2_caption}}</p>
-        </div>
-      </div>
-    </div>
-    <div class="bg-full py-10 row justify-content-center">
-      <div class="col-12 col-xl-10 pb-5">
-        <h3>{{section5_title}}</h3>
-        <p class="fs-5">{{ section5_content }}</p>
-        <div class="pt-5">
-          {% myBlogImage "" + section5_img,
-          "ss" %}
-          <p class="text-center pt-2 text-muted h6 small">{{section5_img_caption}}</p>
-        </div>
-        <div class="pt-5">
-          {% myBlogImage "" + section5_img2,
-          "ss" %}
-          <p class="text-center pt-2 text-muted h6 small">{{section5_img2_caption}}</p>
-        </div>
-        <div class="pt-5">
-          {% myBlogImage "" + section5_img3,
-          "ss" %}
-          <p class="text-center pt-2 text-muted h6 small">{{section5_img3_caption}}</p>
-        </div>
-      </div>
-    </div>
+          <p class="text-center pt-2 text-muted h6 small">{{section8_img2_caption}}</p>
 
-    <div class="py-10"></div>
-    <div class="row justify-content-center">
-      <div class="col-12 col-xl-10 ">
-        <p class="text-center fs-4">{{section6_title}}</p>
-        <h1 class="text-center display-2 pb-5">{{section6_subtitle}}</h1>
-
-        <div class="text-muted pt-5 text-center pb-3 fs-5">{{section6_subtitle2}}</div>
-        <div class="text-center py-vh-2 bg-full-gradient">
-          <p class="h4 fs-2 pt-1">{{section6_subtitle2_content}}</p>
-        </div>
-        <p class="pt-5 fs-5">{{ section6_content }}</p>
-
-        <p></div>
-      </div>
-    </div>
-    <div class="pb-10 row justify-content-center">
-      <div class="col-12 col-xl-10 py-5">
-        <h3>{{section7_title}}</h3>
-        <p class="fs-5">{{ section7_content }}</p>
-        <div class="pt-5 pb-0">
-          {% myBlogImage "" + section7_img,
-          "ss" %}
-          <p class="text-center pt-2 text-muted h6 small">{{section7_img_caption}}</p>
-
-        </div>
-        <div class="pt-5 px-10  pb-0">
-          {% myBlogImage "" + section7_img2,
-          "ss" %}
-          <p class="text-center pt-4 pb-5 text-muted h6 small">{{section7_img2_caption}}</p>
         </div>
         <p></div>
       </div>
+      <div class="row justify-content-center">
+        <div class="col-12 col-xl-10 ">
+          <h1 class="text-center display-2 pb-5">{{section8_subtitle}}</h1>
 
-      <div class="bg-full py-10 row justify-content-center">
-        <div class="col-12 col-xl-10">
-          <h3>{{section8_title}}</h3>
-          <p class="fs-5">{{ section8_content }}</p>
-          <div class="pt-5 px-10 pb-0">
-            {% myBlogImage "" + section8_img,
-            "ss" %}
-            <p class="text-center pt-2 text-muted h6 small">{{section8_img_caption}}</p>
-
+          <div class="text-muted pt-5 text-center pb-3 fs-5">{{section8_subtitle2}}</div>
+          <div class="text-center py-vh-2 bg-full-gradient">
+            <p class="h4 fs-2 pt-1">{{section8_subtitle2_content}}</p>
           </div>
-          <div class="pt-5 px-10 pb-0">
-            {% myBlogGIF "" + section8_gif2,
-            "ss" %}
-            <p class="text-center pt-2 text-muted h6 small">{{section8_img2_caption}}</p>
 
-          </div>
           <p></div>
         </div>
-        <div class="py-10 row justify-content-center">
-          <div class="col-12 col-xl-10">
-            <h3>{{section8a_title}}</h3>
-            <p class="fs-5">{{ section8a_content }}</p>
-            <div class=" pb-0">
-              {% myBlogImage "" + section8a_img,
-              "ss" %}
-            </div>
-            <p></div>
+      </div>
+      <div class="py-10 row justify-content-center">
+        <div class="col-12 col-xl-10">
+          <h3>{{section8a_title}}</h3>
+          <p class="pt-2 fs-5">{{ section8a_content }}</p>
+          <div class=" pb-0">
+            {% myBlogImage "" + section8a_img,
+            "ss" %}
           </div>
-          <div class="bg-full py-10 row justify-content-center">
-            <div class="col-12 col-xl-10">
-              <h3 class="display-4 pb-4 text-center">{{section9_title}}</h3>
-              <p class="fs-5">{{ section9_content }}</p>
-              <div class="pt-5 px-10">
-                {% myBlogImage "" + section9_img,
-                "ss" %}
-              </div>
-              <p></div>
-            </div>
+          <p></div>
+
+        </div>
+      </div>
+      <div class="bg-full py-10 row justify-content-center">
+        <div class="col-12 col-xl-10">
+          <h3>{{section8b_title}}</h3>
+          <p class="pt-2 fs-5">{{ section8b_content }}</p>
+          <div class=" pb-0">
+            {% myBlogImage "" + section8b_img,
+            "ss" %}
           </div>
+          <p></div>
+
+        </div>
+      </div>
+      <div class="py-10 row justify-content-center">
+        <div class="col-12 col-xl-10">
+          <h3 class="fs-5 text-muted pb-4 text-center">{{section9_title}}</h3>
+          <div class="text-center py-vh-2 bg-full-gradient">
+            <p class="h4 fs-2 pt-1">{{section9_subtitle}}</p>
+          </div>
+
+          <div class="pt-5 px-0">
+            {% myBlogImage "" + section9_img,
+            "ss" %}
+          </div>
+          <p class="fs-5 pt-5">{{ section9_content }}
+            <a class="link-fancy me-2"  href="https://www.curiosityxr.com">
+              <p class"fs-5 mb-0 text-center">Curiosity XR</p>
+            </a>
+          </p>
+
+          <p></div>
+        </div>
+      </div>
