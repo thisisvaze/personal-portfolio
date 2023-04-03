@@ -83,6 +83,14 @@ section12_content: I interviewed around 10 Android app developers with each sess
 
 section13_title: Integration Cycle Timeline
 section13_content: We had set up Hotjar on the SDK X Console to analyze the user behaviors and understand the discoverability. Analyzing over 1800 recordings in the first month, we found that the users were able to navigate and perform the tasks on the dashboard faster as compared to the previous dashboard. A few users were unable to understand the procedure after adding the ad units as they were not used to AdMob terminologies. However, the initial target audience for SDK X were users aquatinted with AdMob hence this issue can be considered insignificant.
+
+work1: >
+  SDK X: Design System for Dynamic Ads
+work1_url: /works/sdkx/
+work2: Contextual Learning with Mixed Reality
+work2_url: /works/things/
+work3: VR Ego-centric Data Navigation
+work3_url: /works/vrdatavis
 # apples:
 #   - one
 #   - two
