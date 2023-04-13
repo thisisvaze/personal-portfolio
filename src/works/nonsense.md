@@ -1,5 +1,5 @@
 ---
-layout: layouts/works/work_things.njk
+layout: layouts/works/work_nonsense.njk
 tags: post
 related:
   - Figma
@@ -8,33 +8,41 @@ related:
   - Branding
 cover: ./src/img/nonsense_cover.png
 subtitle: >
-  Founding Designer @ Nonsense
+  Product Design Project @ Nonsense
 title: >
-  Learning language through Movies
+  Language learning through Movies
 date: 2023-01-01
 summary_title1: My Role
-summary1: Product Design, User journey, Learning journey design
-result_title: Results
-result_content: 80% user retention improvements
+summary1: Product Design, User journey, Learning journey design, Prototyping
+result_title: Timeline
+result_content: 2021-2022
 summary_title2: Platform
 summary2: iOS / Android
-summary_title3: Timeline
-summary3: 2021 - 2022
 link1: nonsense.com
 link1_url: https://www.nonsense.com
 
-context: I joined as a founding designer at Nonsense to reimagine and design language learning experience with movies.
+context: I joined as a founding designer at Nonsense where I led and built core UX and interactions to support a revolutionary edtech app that enables users to learn languages through movies.
 section1_title: >
-  Reflecting true progress & generating intrinsic motivation
-section1_subtitle: Design Goals
-section1_img: ./src/img/sdkx/cover.png
+  How to boost language learning with active movie-watching?
+section1_subtitle: The Challenge
+section1_content_title:
+section1_content: Watching a movie is a different experience than learning languages. We needed to ensure that users are actively immersed to better facilitate language learning.{.text-center .fs-5}
+section1_title2: >
+  How to reflect true learning progress?
+section1_content2: "Competitior apps such as Duolingo use XP and day streak which is indirectly tied to true learning progress.  \n asdasdasd {.fs-5}"
+section1_title3: >
+  How to optimize short attention span?
+section1_content3: "Mobile users have short attention span and a language learning app needs to be designed such that it makes the most use of the user's attention span. \n asdasdasd {.fs-5}"
+section1_img: ./src/img/diff_image_nonsense.png
+section1_img2: ./src/img/sub_challenge_1_nonsense.png
 section2_content: I am building an app to support XR learning experiences. I present an approach to map real-world context for multi-modal learning using ChatGPT, SketchFab API and other ML agents to support curiosity and improve knowledge recall. The prototypes allow users to learn languages, science, history, general knowledge and mathematics concepts through the objects around them and the environment.
 section2_img: ./src/img/things_overview.png
 section2_img2: ./src/img/things_overview2.png
-
+section2_subtitle: Design goals
+section2_title: Transform movie watching into a language learning journey
 section6_subtitle2: >
-  "What if I draw an apple, and it's there in front of me?"
-section6_subtitle2_content: Help learners visualize things
+  Design Goals
+section6_subtitle2_content: Transforming movie watching into a language learning journey
 section6_content: The concept of turning sketches into objects such as a chair, car, etc. is interesting and can be extended to drawing objects which don’t exist like purple apples or magical worlds of mushrooms with abstract gradients as the background. The interaction techniques for this expression in 3D spaces could be through 2D sketches and could provide learners with a natural way to imagine and create 3D spaces/objects. This technique could support curiosity by not limiting the learner’s imagination to the paper.
 section7_title: Storyboarding
 section7_img: ./src/img/p2_pain_points.png
@@ -66,3 +74,5 @@ section9_subtitle: Building tools to support limitless learning
 section9_img: ./src/img/final_grid_things.png
 section9_content: This research process and user study is currently in progress and has helped in the development of CuriosityXR, resulting in a system that provides engaging and immersive learning experiences that support learners' curiosity. The application is planned to launch in April 2023 on Quest store, Register for the waitlist on the link below.
 ---
+
+## I am some content

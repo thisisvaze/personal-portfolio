@@ -9,6 +9,16 @@
       "language": "markdown",
       "scheme": "file",
       "pattern": "src/works/sdkx.md"
+    },
+    {
+      "language": "markdown",
+      "scheme": "file",
+      "pattern": "src/works/nonsense.md"
+    },
+    {
+      "language": "markdown",
+      "scheme": "file",
+      "pattern": "src/works/vrdatavis.md"
     }
   ]
 }

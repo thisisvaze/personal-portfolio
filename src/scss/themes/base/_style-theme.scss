@@ -153,6 +153,10 @@ body {
 .fs-0 {
   font-size: 5rem;
 }
+.px-5{
+  padding-left: 10rem !important;
+  padding-right: 10rem !important;
+}
 
 .px-10{
   padding-left: 7rem;
@@ -212,6 +216,10 @@ body {
   .px-10{
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  .px-5{
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
   }
   
   .py-10{

@@ -3,12 +3,22 @@ const navigationPlugin = require("@11ty/eleventy-navigation");
 const Image = require("@11ty/eleventy-img");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const markdownIt = require("markdown-it");
+var markdownItAttrs = require("markdown-it-attrs");
 module.exports = function (eleventyConfig) {
-  let options = {
+  const md = new markdownIt({
     breaks: true,
-  };
+    html: true,
+  });
+  md.use(markdownItAttrs, {
+    // optional, these are default options
+    leftDelimiter: "{",
+    rightDelimiter: "}",
+    allowedAttributes: [], // empty array = all attributes are allowed
+  });
+  eleventyConfig.addFilter("markdown", (content) => {
+    return md.render(content);
+  });
 
-  eleventyConfig.setLibrary("md", markdownIt(options));
   //Add image support
 
   // works also with addLiquidShortcode or addJavaScriptFunction

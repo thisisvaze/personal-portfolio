@@ -5,18 +5,19 @@
   </div>
   <div class="col-12 container">
     {% block extraArticleHeader %}
-      <p class="display-3 pt-3">{{ title }}</p>
-
-      <a class="link-fancy me-2" href= {{link1_url}}>
-        <p class="fs-5 mb-0">{{ link1 }}</p>
-      </a>
-      <a class="link-fancy me-2" href= {{link2_url}}>
-        <p class="fs-5 mb-0 ">{{ link2 }}</p>
-      </a>
-      <a class="link-fancy me-2" href= {{link3_url}}>
-        <p class="fs-5 mb-0">{{ link3 }}</p>
-      </a>
-
+      <div class="pt-3">
+        <a class="link-fancy me-2" href= {{link1_url}}>
+          <p class="fs-6 mb-0">{{ link1 }}</p>
+        </a>
+        <a class="link-fancy me-2" href= {{link2_url}}>
+          <p class="fs-6 mb-0 ">{{ link2 }}</p>
+        </a>
+        <a class="link-fancy me-2" href= {{link3_url}}>
+          <p class="fs-6 mb-0">{{ link3 }}</p>
+        </a>
+        <p class="display-3 pt-3 pb-0">{{ title }}</p>
+        <p class="fs-5 text-muted">{{ subtitle }}</p>
+      </div>
       {% set wc = content | striptags | wordcount %}
 
       <div>
