@@ -11,7 +11,7 @@ subtitle: >
   MDes Thesis @ OCAD University
 title: >
   Contextual Learning with Mixed Reality
-date: 2014-01-01
+date: 2013-01-01
 summary_title1: MR Headset support
 summary1: Meta Quest Pro & Hololens 2
 result_title: M.Des. Thesis
