@@ -1,27 +1,36 @@
 <div class="col-12">
+
+  <div class="row py-5 justify-content-center bg-full">
+    <div class="col-12 col-lg-8 py-5">
+
+      <h4>{{section2_title}}</h4>
+      <h1 class="mt-2 mb-5">{{section2_subtitle| safe}}</h1>
+      <p class="fs-5 mb-5">{{ section2_content }}</p>
+      <div class="">
+        {% myBlogImage "" + section2_img,
+        "ss" %}
+      </div>
+      <p class="pt-2 text-muted h6 small">{{section2_img_caption}}</p>
+
+    </div>
+  </div>
   <p class="lead">
-    <p class="text-center fs-1 pb-5">{{section1_title}}</p>
+    <p class="text-center fs-1 pb-2 pt-5">{{section1_title}}</p>
     <div class=" py-vh-4 bg-full-gradient text-center">
       <h4 class="py-0 my-0">{{section1_subtitle}}</h4>
     </div>
   </p>
-  <div class="row py-5 justify-content-center">
-    <div class="col-12 col-lg-8 py-5">
-      <h4>{{section2_title}}</h4>
-      <p class="fs-5">{{ section2_content }}</p>
-    </div>
-  </div>
-  <div class="row pt-5  justify-content-center bg-full">
+  <div class="row pt-5  justify-content-center">
     <div class="col-12 col-lg-8 py-5">
       <h4>{{section3_title}}</h4>
-      <p class="fs-5">{{ section3_content }}</p>
-      <div class="py-5 px-5">
+      <p class="fs-5 mb-5">{{ section3_content }}</p>
+      <div class="mb-3">
         {% myBlogImage "" + section3_img,
         "ss" %}
       </div>
     </div>
   </div>
-  <div class="row pt-5 justify-content-center">
+  <div class="row pt-5 justify-content-center bg-full">
     <div class="col-12 col-lg-8 py-5">
       <h4>{{section4_title}}</h4>
       <p class="fs-5">{{ section4_content }}</p>

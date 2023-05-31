@@ -10,7 +10,7 @@ cover: ./src/img/things_cover.png
 subtitle: >
   MDes Thesis @ OCAD University
 title: >
-  Contextual Learning with Mixed Reality
+  Curiosity XR: Contextualizing Learning with Mixed Reality
 date: 2013-01-01
 summary_title1: MR Headset support
 summary1: Meta Quest Pro & Hololens 2

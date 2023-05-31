@@ -9,40 +9,61 @@
 
     {% include 'snippets/navbar.njk' %}
 
-    <main class="container text-center">
-      <div class="row justify-content-center">
+    <main class="container">
+      <div class="row mt-5 justify-content-center">
         {% myProfilePhoto "./src/img/profile2.png",
         "profile_pic" %}
         <div class="col-10 col-lg-8 col-xl-6"
         ><br>
-          <p class="mb-0 fs-3">
+          <p class="mb-5 fs-3 text-center ">
             About
           </p>
 
           <div>
             <p class="lead">
-              {{about_content}}</p>
+              Hi there! I'm Aaditya, a curious and self-driven XR Designer based in Toronto. 
+              I absolutely love leading and directing design in startups and working at research labs to 
+              create fast-paced tech products. 
+              <br><br>
+              For the past 3 years, I've been immersed in the world of XR, 
+              focusing on designing and building interaction and data visualization techniques. 
+            
+              In this master's thesis project, I've been 
+              able to explore my love for design while also tapping into my technical and educational expertise. 
+                <br><br>
+                When I'm not busy designing or developing the next big thing in XR, you can find meexploring the nature with friends, or cooking butter chicken! </p>
           </div>
-          <p class=" fs-3"></p>
-          <a class="link-fancy mb-3" href= {{link1_url}}>
-            <p class="fs-6 mb-0">{{ link1 }}</p>
-          </a>
-          <br>
-          <a class="link-fancy mb-3" href= {{link2_url}}>
-            <p class="fs-6 mb-0">{{ link2 }}</p>
-          </a>
-          <br>
-          <a class="link-fancy mb-3" href= {{link3_url}}>
-            <p class="fs-6 mb-0">{{ link3 }}</p>
-          </a>
-          <p class=" fs-3 mt-5">
+          {# <div class="mt-5 text-center">
+            <p class=" fs-3 "></p>
+            <a class="link-fancy mb-3" href= {{link1_url}}>
+              <p class="fs-6 mb-0">{{ link1 }}</p>
+            </a>
+            <br>
+            <a class="link-fancy mb-3" href= {{link2_url}}>
+              <p class="fs-6 mb-0">{{ link2 }}</p>
+            </a>
+            <br>
+            <a class="link-fancy mb-3" href= {{link3_url}}>
+              <p class="fs-6 mb-0">{{ link3 }}</p>
+            </a>
+          </div> #}
+          <div class="text-center ">
+            <p class=" fs-3 mt-5">
             Contact
           </p>
 
-          <p class="fs-6 mb-3">{{ email }}</p>
-          <a class="link-fancy mb-3" href= {{meetlink_url}}>
-            <p class="fs-6 mb-0">{{ meetlink }}</p>
-          </a>
+            <p class="fs-6 mb-3">
+              {{ email }}
+
+              <a class="link-fancy mb-3 ms-3" href= {{meetlink_url}}>
+                {{ meetlink }}
+              </a>
+              {# <br> #}
+              <a class="link-fancy mb-3 ms-3" href= {{link1_url}}>
+                {{ link1 }}
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </main>
