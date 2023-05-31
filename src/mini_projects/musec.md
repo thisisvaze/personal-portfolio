@@ -8,7 +8,7 @@ cover: ./src/img/musec_cover.png
 title: >
   Musec
 subtitle: BCI Interface for playing Piano
-date: 2014-01-01
+date: 2013-01-01
 
 summary_title1: Collaborator
 summary1: Ellie Huang

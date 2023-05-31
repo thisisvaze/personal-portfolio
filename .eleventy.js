@@ -1,23 +1,28 @@
 const { DateTime } = require("luxon");
 const navigationPlugin = require("@11ty/eleventy-navigation");
 const Image = require("@11ty/eleventy-img");
+const embeds = require("eleventy-plugin-embed-everything");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const markdownIt = require("markdown-it");
 var markdownItAttrs = require("markdown-it-attrs");
+const embedInstagram = require("eleventy-plugin-embed-instagram");
 module.exports = function (eleventyConfig) {
-  const md = new markdownIt({
-    breaks: true,
-    html: true,
-  });
-  md.use(markdownItAttrs, {
-    // optional, these are default options
-    leftDelimiter: "{",
-    rightDelimiter: "}",
-    allowedAttributes: [], // empty array = all attributes are allowed
-  });
+  // const md = new markdownIt({
+  //   breaks: true,
+  //   html: true,
+  // });
+  // md.use(markdownItAttrs, {
+  //   // optional, these are default options
+  //   leftDelimiter: "{",
+  //   rightDelimiter: "}",
+  //   allowedAttributes: [], // empty array = all attributes are allowed
+  // });
+  eleventyConfig.addPlugin(embedInstagram);
   eleventyConfig.addFilter("markdown", (content) => {
     return md.render(content);
   });
+  //Add video support
+  eleventyConfig.addPlugin(embeds);
 
   //Add image support
 
@@ -245,7 +250,7 @@ module.exports = function (eleventyConfig) {
         <img
           src="${lowestSrc.url}"
           width="100%"
-          style="height:15vh; object-fit:contain; overflow: hidden;width:100%"
+          style="height:20vh; object-fit:contain; overflow: hidden;width:100%"
           alt="${alt}">
       </picture>`;
     }
