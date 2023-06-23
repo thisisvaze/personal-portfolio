@@ -8,9 +8,9 @@ related:
   - Machine Learning
 cover: ./src/img/things_cover.png
 subtitle: >
-  MDes Thesis @ OCAD University
+  MDes Thesis, available on Meta Quest Store
 title: >
-  Curiosity XR: Contextualizing Learning with Mixed Reality
+  CuriosityXR: Contextualizing Learning with Mixed Reality
 date: 2013-01-01
 summary_title1: MR Headset support
 summary1: Meta Quest Pro & Hololens 2
@@ -21,7 +21,7 @@ summary2: Unity, OpenXR, Oculus SDK, Socket.io, PyTorch
 summary_title3: Timeline
 summary3: 2022 - 2023 (Lanuching soon on Meta Store)
 link1: CuriosityXR
-link1_url: https://www.curiosityxr.com
+link1_url: https://www.oculus.com/experiences/quest/8662430537161741/
 
 context: For my Master's thesis, I'm building a platform to support curiosity with XR. Learners would be able to learn math concepts such as the volume of a cylinder when looking at a cup to biology concepts on how plant cells look like when near a plant.
 section1_title: >
