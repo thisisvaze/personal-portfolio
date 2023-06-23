@@ -18,7 +18,7 @@ link2: YouTube Demo
 link2_url: https://www.youtube.com/watch?v=UFBEG1s27uU
 
 summary_title1: My role
-summary1: ML and Android Engineer | XR Concept & UX Designer
+summary1: ML and Android Engineer | XR Developer | Concept Designer
 summary_title2: Team members
 summary2: Cayden Pierce
 
