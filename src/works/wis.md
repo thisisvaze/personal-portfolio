@@ -12,7 +12,7 @@ related:
 title: Wearable Intelligence System
 subtitle: Open-source AI developer tools for Android smartglasses
 date: 2013-01-13
-link1: GitHub ★ 65
+link1: GitHub ★ 71
 link1_url: https://github.com/emexlabs/WearableIntelligenceSystem
 link2: YouTube Demo
 link2_url: https://www.youtube.com/watch?v=UFBEG1s27uU
