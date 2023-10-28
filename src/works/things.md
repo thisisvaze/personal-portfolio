@@ -2,16 +2,15 @@
 layout: layouts/works/work_things.njk
 tags: post
 related:
-  - Unity
+  - AR/VR
   - Interaction Design
-  - Mixed Reality
-  - Machine Learning
+  - Meta Quest
 cover: ./src/img/things_cover.png
 subtitle: >
-  MDes Thesis, available on Meta Quest Store
+  Contextual learning with Mixed Reality
 title: >
-  CuriosityXR: Contextualizing Learning with Mixed Reality
-date: 2013-01-01
+  CuriosityXR
+date: 2011-01-01
 summary_title1: MR Headset support
 summary1: Meta Quest Pro & Hololens 2
 result_title: M.Des. Thesis

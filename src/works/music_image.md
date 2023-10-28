@@ -1,6 +1,6 @@
 ---
-layout: layouts/works/music_image.njk
-tags: mini_project
+layout: layouts/mini_projects/music_image.njk
+tags: post
 related:
   - LLM-based AI
   - Interaction Design

@@ -1,7 +1,7 @@
 <div class="row d-flex justify-content-center">
-  <div class="">
     {%- for post in posts %}
-      <div  class="py-4 col-auto">
+     <div class="col-lg-6 col-md-12">
+      <div class="py-4 px-2">
 
         <a href="{{ post.url | url }}" >{% myResponsiveImage "" + post.data.cover,
           "ss" %}
@@ -9,9 +9,9 @@
 
         <div class="col-12 py-3" style="background-color: #ffffff;background-size: cover;">
           <a href="{{ post.url | url }}" class="text-decoration-none text-dark">
-            <p class="title-header fs-2 lh-sm mb-0">{{ post.data.title}}</p>
+            <p class="title-header fs-5 lh-sm mb-0">{{ post.data.title}}</p>
           </a>
-          <p class="fs-5 text-muted">
+          <p class="fs-5 pt-2 text-muted" style="line-height:1.2;">
             <small>{{ post.data.subtitle }}</small>
           </p>
           {% for tag in post.data.related %}
@@ -20,8 +20,7 @@
             </a>
           {% endfor %}
         </div>
-
+    </div>
       </div>
     {% endfor %}
-  </div>
 </div>

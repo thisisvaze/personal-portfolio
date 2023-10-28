@@ -7,9 +7,9 @@ related:
   - Design system
 cover: ./src/img/sdkx_cover.png
 title: >
-  SDK X: Responsive Dynamic Ads for Android
-subtitle: Product Design project @ GreedyGame
-date: 2014-01-01
+  SDK X: Responsive Dynamic Ads
+subtitle: UI/UX Design @ GreedyGame
+date: 2013-01-01
 product: >
   GreedyGame SDK X
 result_title: Impact
