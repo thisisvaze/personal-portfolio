@@ -1,19 +1,133 @@
-<div class="row pt-5 justify-content-center">
-    <div class="text-center col-12 col-xl-10 py-5">
-        <h2>{{section1_title}}</h2>
-        <p class="fs-5">{{ section1_content }}</p>
-        <div class="px-10 py-5">
-            {% myBlogImage "" + section1_img,
-            "ss" %}
-        </div>
+<div class="pt-5 col-12">
+  <p class="lead ">
+    <p class="text-muted text-center fs-5">{{section1_title}}</p>
+    <div class=" py-vh-2 bg-full-gradient">
+      <h4 class="fs-1 text-center">{{section1_subtitle}}</h4>
     </div>
+  </p>
+  <div class="row pt-5 justify-content-center">
+    <div class="col-12 col-xl-10 py-5">
+      <h4>{{section2_title}}</h4>
+      <p class="fs-5">{{ section2_content }}</p>
+      <div class="px-20 py-5">
+        {% myBlogImage "" + section2_img,
+        "ss" %}
+      </div>
+    </div>
+  </div>
+  <div class="row pt-5 bg-full justify-content-center">
+    <div class="col-12 col-xl-10 py-5">
+      <h4>{{section3_title}}</h4>
+      <p class="fs-5">{{ section3_content }}</p>
+      <div class="py-10 px-20">
+        {% myBlogImage "" + section3_img,
+        "ss" %}
+      </div>
+    </div>
+  </div>
+
+  <div class="row pt-5 justify-content-center">
+    <div class="col-12 col-xl-10 py-5">
+      <h4>{{section4_title}}</h4>
+      <p class="fs-5">{{ section4_content }}</p>
+      <div class="px-10 py-10">
+        {% myBlogImage "" + section4_img,
+        "ss" %}
+      </div>
+    </div>
+  </div>
+
+
+  <div class="py-5">
+    <p class="text-center text-muted pt-5 fs-5">{{section6_title}}</p>
+    <div class=" py-vh-2 text-center bg-full-gradient">
+      <h4 class="fs-1">{{section6_subtitle}}</h4>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-12 col-xl-10 py-5">
+      <div class="h2 text-muted pb-5 text-center">{{section7_title}}</div>
+      <p class="fs-5">{{ section7_content }}</p>
+      <div class="py-5 px-5">
+        {% myBlogImage "" + section6_img,
+        "ss" %}
+      </div>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+
+    <div class="col-12 col-xl-10  py-5">
+      <div class="h2 text-muted pb-5 text-center ">{{section8_pretitle}}</div>
+      <h4 class="pt-5">{{section8_title}}</h4>
+      <p class="fs-5">{{ section8_content }}</p>
+      <div class="py-5 px-0">
+        {% myBlogImage "" + section8_img,
+        "ss" %}
+      </div>
+       <div class="py-5 px-5">
+        {% myBlogImage "" + section8_img2,
+        "ss" %}
+      </div>
+    </div>
+  </div>
+
+  <div class="row bg-full pt-5 justify-content-center">
+    <div class="col-12 col-xl-10  py-5">
+      <h4>{{section9_title}}</h4>
+      <p class="fs-5">{{ section9_content }}</p>
+      <div class="py-5 px-20">
+        {% myBlogImage "" + section9_img,
+        "ss" %}
+      </div>
+       <div class="py-5 px-20">
+        {% myBlogImage "" + section9_img2,
+        "ss" %}
+      </div>
+    </div>
+  </div>
+  <div class="row  pt-5 justify-content-center">
+    <div class="col-12 col-xl-10 py-5">
+      <h4>{{section10_title}}</h4>
+      <p class="fs-5">{{ section10_content }}</p>
+      <div class="py-5 px-20">
+        {% myBlogImage "" + section10_img,
+        "ss" %}
+      </div>
+    </div>
+  </div>
+  <div class="row  pt-5 justify-content-center">
+    <p class="text-muted text-center fs-5">{{section11_title}}</p>
+    <div class=" py-vh-2 bg-full-gradient">
+      <h4 class="fs-1 text-center">{{section11_subtitle}}</h4>
+    </div>
+  </div>
+
+  <div class="row pt-5 justify-content-center">
+    <div class="col-12 col-xl-10 py-5">
+
+      <h4 class="pb-2">
+        <i class="bi bi-clipboard-data"></i>
+        {{section12_title}}</h4>
+      <p class="fs-5">{{ section12_content }}</p>
+
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col-12 col-xl-10 py-5">
+      <h4 class="pb-2">
+        <i class="bi bi-chat-heart"></i>
+        {{section13_title}}</h4>
+
+      <p class="fs-5 pb-5 ">{{ section13_content }}</p>
+    </div>
+  </div>
+
+  <div class="row text-center justify-content-center col-12  py-5">
+    <div class="col-6">
+    <button type="button" class="btn btn-primary" onclick="window.location.href = '/'" > See other projects </button>
+    </div>
+  </div>
 </div>
-<div class="row pt-5 justify-content-center">
-    <div class="text-center col-12 col-xl-10 py-5">
-        <h2 class="pb-0">{{section2_title}}</h2>
-        <p class="fs-5">{{ section2_content }}</p>
-        <div class="px-10 py-0">
-            <iframe class="mt-2" style="top:0;right:0;bottom:0;left:0;width:100%;height:50vh" width="100%" height="100%" frameborder="0" src={{video_url_demo}}></iframe>
-        </div>
-    </div>
 </div>
