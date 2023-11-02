@@ -51,7 +51,7 @@
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-img": "^2.0.1",
     "@11ty/eleventy-navigation": "^0.3.3",
-    "@11ty/eleventy-plugin-rss": "^1.1.2",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
     "bootstrap-icons": "^1.9.1",
     "gulp-html-replace": "^1.6.2",
     "gulp-purgecss": "^4.1.3",
