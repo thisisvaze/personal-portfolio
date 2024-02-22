@@ -221,6 +221,41 @@ module.exports = function (eleventyConfig) {
     }
   );
   eleventyConfig.addNunjucksAsyncShortcode(
+    "iconsLogos",
+    async function (src, alt) {
+      if (alt === undefined) {
+        // You bet we throw an error on missing alt (alt="" works okay)
+        throw new Error(`Missing \`alt\` on myResponsiveImage from: ${src}`);
+      }
+      let outputFormat = "webp";
+      let stats = await Image(src, {
+        widths: [1024],
+        formats: ["webp"],
+        urlPath: "/img/",
+        outputDir: "./dev/img/",
+      });
+      let lowestSrc = stats[outputFormat][0];
+      let sizes = "20vw"; // Make sure you customize this!
+      // Iterate over formats and widths
+      return `<picture>
+      ${Object.values(stats)
+        .map((imageFormat) => {
+          return `  <source type="image/${
+            imageFormat[0].format
+          }" srcset="${imageFormat
+            .map((entry) => `${entry.url} ${entry.width}w`)
+            .join(", ")}" sizes="${sizes}">`;
+        })
+        .join("\n")}
+        <img
+          src="${lowestSrc.url}"
+          width="100%"
+          style="height:10vh; object-fit:contain; overflow: hidden;width:100%"
+          alt="${alt}">
+      </picture>`;
+    }
+  );
+  eleventyConfig.addNunjucksAsyncShortcode(
     "myProfilePhoto",
     async function (src, alt) {
       if (alt === undefined) {
