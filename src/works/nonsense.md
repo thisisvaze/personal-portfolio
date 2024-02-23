@@ -13,7 +13,7 @@ date: 2010-04-01
 product: >
   GreedyGame SDK X
 result_title: Impact
-result_content: 80% user retention improvements
+result_content: Achieved UX goals to build true language journey
 summary_title1: Aim
 summary1: Make language learning effective using movies, build user journey, learning journey design
 
@@ -74,14 +74,9 @@ section10_title: >
 section10_content: To address the challenge of synchronizing the learner's journey with the movie progression, we divided movies into short scene clips. This allowed for active participation and better attention span from the users. The scenes were segmented based on the difficulty of dialogues, facilitating a natural language progression for the user that paralleled the movie's storyline. Additionally, we grouped similar categories together to enhance the unlocking experience for more advanced language exposure.
 section10_img: ./src/img/movie_scene_cut.png
 section11_title: Results
-section11_subtitle: 80% improvement in user retention
-section11_content: I interviewed around 10 Android app developers with each session lasting for about 2 hours where we asked them to do the complete integration process, where I observed them throughout the process. Users were able to understand most of the things by themselves, but I had to assist them at some points through the documentation.
+section11_subtitle: Robust and True language learning path
+section11_content: The app's innovative approach to language learning through movies led to a robust and authentic learning path for users. By integrating interactive features and real progress tracking, user engagement and language retention were significantly enhanced. The tailored scene segmentation and contextual learning strategies resulted in a unique and effective educational experience.
 
-section12_title: User Analytics and Recordings
-section12_content: With around 100+ active users in Discord community we gathered feedback, analyzed the data on the effectiveness of learning the language with the new updates.
-
-section13_title: Engaging and Personalized Learning Experience
-section13_content: The user feedback reflected a highly engaging, fulfilling, and learner-centric experience with the app. Users found the learning journey enjoyable and particularly appreciated the feature of adding words to their list, which tangibly demonstrated their language progress. As they learned through watching their favourite movies, they felt increasingly confident in understanding real-world conversations. This innovative approach to language learning made the process not just educational, but also deeply personal and fun.
 
 work1: >
   SDK X: Design System for Dynamic Ads

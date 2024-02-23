@@ -9,7 +9,7 @@ title: >
   MelodEyes
 
 subtitle: AI-generated music for images
-date: 2012-01-01
+date: 1994-01-01
 
 summary_title1: Tools
 summary1: Python, MusicLM, GPT-4
